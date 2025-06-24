@@ -11,7 +11,7 @@ Over 30 days, I’m diving deep into PostgreSQL — from basics like SQL and con
 | --------- | ------------------------------------------------- | ---------------------------------------------------------- |
 | ✅ Day 1  | Data Types & Table Design                         | [day01_schema_design.sql](./day01_schema_design.sql)       |
 | ✅ Day 2  | Constraints + CRUD (`INSERT`, `UPDATE`, `DELETE`) | [day02_constraints_crud.sql](./day02_constraints_crud.sql) |
-| ⬜ Day 3  | SELECT Queries, Filtering, Sorting                | `day03_select_queries.sql`                                 |
+| ✅ Day 3  | SELECT Queries, Filtering, Sorting                | [day03_select_queries.sql](./day03_select_queries.sql)     |
 | ⬜ Day 4  | JOINS (INNER, LEFT, RIGHT, FULL)                  | `day04_joins.sql`                                          |
 | ⬜ Day 5  | Aggregates + GROUP BY + HAVING                    | `day05_aggregates.sql`                                     |
 | ⬜ Day 6  | Subqueries & `EXISTS`                             | `day06_subqueries.sql`                                     |
@@ -73,6 +73,14 @@ Over 30 days, I’m diving deep into PostgreSQL — from basics like SQL and con
 - Added `CHECK` constraints on email domain and password length.
 - Practiced `INSERT`, `UPDATE`, and `DELETE`.
 - Verified cascade behavior on post deletion when a user is removed.
+
+### ✅ Day 3 – SELECT Queries, Filtering, Sorting & Pagination
+
+- Queried full tables and specific columns with `SELECT`.
+- Filtered rows using `WHERE`, `AND`, `OR`, `NOT`, `LIKE`.
+- Handled array filters with `ANY(tags)`.
+- Sorted records using `ORDER BY` and paginated with `LIMIT` and `OFFSET`.
+- Used `DISTINCT` and `COUNT` for deduplication and summary.
 
 ---
 

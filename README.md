@@ -46,7 +46,7 @@ Over 30 days, I’m diving deep into PostgreSQL — from basics like SQL and con
 
 - PostgreSQL 16
 - psql CLI
-- pgAdmin / DBeaver
+- pgAdmin
 - Docker for isolated environments
 - VS Code for SQL editing
 

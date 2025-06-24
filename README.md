@@ -13,7 +13,7 @@ Over 30 days, I’m diving deep into PostgreSQL — from basics like SQL and con
 | ✅ Day 2  | Constraints + CRUD (`INSERT`, `UPDATE`, `DELETE`) | [day02_constraints_crud.sql](./day02_constraints_crud.sql) |
 | ✅ Day 3  | SELECT Queries, Filtering, Sorting                | [day03_select_queries.sql](./day03_select_queries.sql)     |
 | ✅ Day 4  | JOINS (INNER, LEFT, RIGHT, FULL)                  | [day04_joins.sql](./day04_joins.sql)                       |
-| ⬜ Day 5  | Aggregates + GROUP BY + HAVING                    | `day05_aggregates.sql`                                     |
+| ✅ Day 5  | Aggregates + GROUP BY + HAVING                    | [day05_aggregates.sql](./day05_aggregates.sql)             |
 | ⬜ Day 6  | Subqueries & `EXISTS`                             | `day06_subqueries.sql`                                     |
 | ⬜ Day 7  | Transactions & ACID                               | `day07_transactions.sql`                                   |
 | ⬜ Day 8  | `ALTER`, `DROP`, `TRUNCATE`                       | `day08_alter_drop.sql`                                     |
@@ -89,6 +89,13 @@ Over 30 days, I’m diving deep into PostgreSQL — from basics like SQL and con
 - Explored `RIGHT JOIN` and `FULL OUTER JOIN` for completeness.
 - Queried unmatched records (e.g., users without posts).
 - Learned how JOINs help in multi-table report generation.
+
+### ✅ Day 5 – Aggregates, GROUP BY, HAVING
+
+- Practiced `COUNT`, `SUM`, `AVG`, `MIN`, and `MAX` on real post data.
+- Grouped posts by `user_id`, `is_published`, and individual tags.
+- Used `HAVING` to filter aggregate groups.
+- Queried average word count using JSONB extraction.
 
 ---
 

@@ -10,7 +10,7 @@ Over 30 days, I’m diving deep into PostgreSQL — from basics like SQL and con
 | Day       | Topic                                             | File                                                       |
 | --------- | ------------------------------------------------- | ---------------------------------------------------------- |
 | ✅ Day 1  | Data Types & Table Design                         | [day01_schema_design.sql](./day01_schema_design.sql)       |
-| ⬜ Day 2  | Constraints + CRUD (`INSERT`, `UPDATE`, `DELETE`) | [day02_constraints_crud.sql](./day02_constraints_crud.sql) |
+| ✅ Day 2  | Constraints + CRUD (`INSERT`, `UPDATE`, `DELETE`) | [day02_constraints_crud.sql](./day02_constraints_crud.sql) |
 | ⬜ Day 3  | SELECT Queries, Filtering, Sorting                | `day03_select_queries.sql`                                 |
 | ⬜ Day 4  | JOINS (INNER, LEFT, RIGHT, FULL)                  | `day04_joins.sql`                                          |
 | ⬜ Day 5  | Aggregates + GROUP BY + HAVING                    | `day05_aggregates.sql`                                     |
@@ -57,6 +57,22 @@ Over 30 days, I’m diving deep into PostgreSQL — from basics like SQL and con
 - ✅ Completed files are marked with checkmarks
 - 🧪 All SQL is tested on local PostgreSQL setup
 - 🧠 Concepts are updated daily as I learn
+
+---
+
+## 🗂️ Day Highlights
+
+### ✅ Day 1 – Schema Design
+
+- Created `users` and `posts` tables with UUID PKs, arrays, JSONB, and timestamps.
+- Added foreign key with `ON DELETE CASCADE`.
+- Used `INSERT`, `SELECT`, and `ALTER` statements.
+
+### ✅ Day 2 – Constraints & CRUD
+
+- Added `CHECK` constraints on email domain and password length.
+- Practiced `INSERT`, `UPDATE`, and `DELETE`.
+- Verified cascade behavior on post deletion when a user is removed.
 
 ---
 

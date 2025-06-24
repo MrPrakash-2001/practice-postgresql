@@ -12,7 +12,7 @@ Over 30 days, I’m diving deep into PostgreSQL — from basics like SQL and con
 | ✅ Day 1  | Data Types & Table Design                         | [day01_schema_design.sql](./day01_schema_design.sql)       |
 | ✅ Day 2  | Constraints + CRUD (`INSERT`, `UPDATE`, `DELETE`) | [day02_constraints_crud.sql](./day02_constraints_crud.sql) |
 | ✅ Day 3  | SELECT Queries, Filtering, Sorting                | [day03_select_queries.sql](./day03_select_queries.sql)     |
-| ⬜ Day 4  | JOINS (INNER, LEFT, RIGHT, FULL)                  | `day04_joins.sql`                                          |
+| ✅ Day 4  | JOINS (INNER, LEFT, RIGHT, FULL)                  | [day04_joins.sql](./day04_joins.sql)                       |
 | ⬜ Day 5  | Aggregates + GROUP BY + HAVING                    | `day05_aggregates.sql`                                     |
 | ⬜ Day 6  | Subqueries & `EXISTS`                             | `day06_subqueries.sql`                                     |
 | ⬜ Day 7  | Transactions & ACID                               | `day07_transactions.sql`                                   |
@@ -81,6 +81,14 @@ Over 30 days, I’m diving deep into PostgreSQL — from basics like SQL and con
 - Handled array filters with `ANY(tags)`.
 - Sorted records using `ORDER BY` and paginated with `LIMIT` and `OFFSET`.
 - Used `DISTINCT` and `COUNT` for deduplication and summary.
+
+### ✅ Day 4 – JOINS (INNER, LEFT, RIGHT, FULL)
+
+- Practiced `INNER JOIN` to retrieve only matched user-post pairs.
+- Used `LEFT JOIN` to include all users, even without posts.
+- Explored `RIGHT JOIN` and `FULL OUTER JOIN` for completeness.
+- Queried unmatched records (e.g., users without posts).
+- Learned how JOINs help in multi-table report generation.
 
 ---
 

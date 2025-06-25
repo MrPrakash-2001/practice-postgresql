@@ -20,7 +20,7 @@ Over 30 days, I’m diving deep into PostgreSQL — from basics like SQL and con
 | ✅ Day 9  | ENUM, ARRAY, Composite Types                      | [day09_enums_arrays.sql](./day09_enums_arrays.sql)         |
 | ✅ Day 10 | JSON & JSONB                                      | [day10_jsonb.sql](./day10_jsonb.sql)                       |
 | ✅ Day 11 | Common Table Expressions (CTEs)                   | [day11_ctes.sql](./day11_ctes.sql)                         |
-| ⬜ Day 12 | Views & Materialized Views                        | `day12_views.sql`                                          |
+| ✅ Day 12 | Views & Materialized Views                        | [day12_views.sql](./day12_views.sql)                       |
 | ⬜ Day 13 | Functions (`plpgsql`)                             | `day13_functions.sql`                                      |
 | ⬜ Day 14 | Triggers                                          | `day14_triggers.sql`                                       |
 | ⬜ Day 15 | Indexes (B-Tree, GIN, Partial)                    | `day15_indexes.sql`                                        |
@@ -134,6 +134,12 @@ Over 30 days, I’m diving deep into PostgreSQL — from basics like SQL and con
 - Simplified complex queries using `WITH` clause.
 - Implemented recursive CTEs to solve factorial and tree-like problems.
 - Used CTEs with `JOIN`, `UPDATE`, and real-world filtering logic.
+
+### ✅ Day 12 – Views & Materialized Views
+
+- Built multiple `VIEW`s to simplify querying `posts` with user data and metadata.
+- Implemented `MATERIALIZED VIEW` to pre-calculate tag usage.
+- Covered advanced JSONB filtering and array unnesting inside views.
 
 ---
 

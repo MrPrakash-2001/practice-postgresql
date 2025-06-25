@@ -31,7 +31,7 @@ Over 30 days, I’m diving deep into PostgreSQL — from basics like SQL and con
 | ✅ Day 20 | Vacuum, Reindex, Analyze                          | [day20_maintenance.sql](./day20_maintenance.sql)                 |
 | ✅ Day 21 | Performance Project                               | [day21_performance_project.sql](./day21_performance_project.sql) |
 | ✅ Day 22 | RBAC (Roles, Grants)                              | [day22_roles_grants.sql](./day22_roles_grants.sql)               |
-| ⬜ Day 23 | Row-Level Security (RLS)                          | `day23_rls.sql`                                                  |
+| ✅ Day 23 | Row-Level Security (RLS)                          | [day23_rls.sql](./day23_rls.sql)                                 |
 | ⬜ Day 24 | Replication Setup                                 | `day24_replication.sql`                                          |
 | ⬜ Day 25 | WAL + PITR                                        | `day25_wal_pitr.sql`                                             |
 | ⬜ Day 26 | Backup Tools (`pg_dump`, `pgBackRest`)            | `day26_backup.sql`                                               |
@@ -212,6 +212,13 @@ Over 30 days, I’m diving deep into PostgreSQL — from basics like SQL and con
 - Granted permissions on tables to roles.
 - Created users and assigned roles for permission control.
 - Tested permissions by switching users.
+
+### ✅ Day 23 – Row-Level Security (RLS)
+
+- Enabled RLS on `posts` table to restrict access to rows per user.
+- Created policy to allow each user to only see their own posts.
+- Used `current_setting()` to simulate app context for authenticated user ID.
+- Demonstrated `SELECT` and `INSERT` policies with `USING` and `WITH CHECK`.
 
 ---
 

@@ -7,38 +7,38 @@ Over 30 days, I’m diving deep into PostgreSQL — from basics like SQL and con
 
 ## 📅 Daily Breakdown
 
-| Day       | Topic                                             | File                                                       |
-| --------- | ------------------------------------------------- | ---------------------------------------------------------- |
-| ✅ Day 1  | Data Types & Table Design                         | [day01_schema_design.sql](./day01_schema_design.sql)       |
-| ✅ Day 2  | Constraints + CRUD (`INSERT`, `UPDATE`, `DELETE`) | [day02_constraints_crud.sql](./day02_constraints_crud.sql) |
-| ✅ Day 3  | SELECT Queries, Filtering, Sorting                | [day03_select_queries.sql](./day03_select_queries.sql)     |
-| ✅ Day 4  | JOINS (INNER, LEFT, RIGHT, FULL)                  | [day04_joins.sql](./day04_joins.sql)                       |
-| ✅ Day 5  | Aggregates + GROUP BY + HAVING                    | [day05_aggregates.sql](./day05_aggregates.sql)             |
-| ✅ Day 6  | Subqueries & `EXISTS`                             | [day06_subqueries.sql](./day06_subqueries.sql)             |
-| ✅ Day 7  | Transactions & ACID                               | [day07_transactions.sql](./day07_transactions.sql)         |
-| ✅ Day 8  | `ALTER`, `DROP`, `TRUNCATE`                       | [day08_alter_drop.sql](./day08_alter_drop.sql)             |
-| ✅ Day 9  | ENUM, ARRAY, Composite Types                      | [day09_enums_arrays.sql](./day09_enums_arrays.sql)         |
-| ✅ Day 10 | JSON & JSONB                                      | [day10_jsonb.sql](./day10_jsonb.sql)                       |
-| ✅ Day 11 | Common Table Expressions (CTEs)                   | [day11_ctes.sql](./day11_ctes.sql)                         |
-| ✅ Day 12 | Views & Materialized Views                        | [day12_views.sql](./day12_views.sql)                       |
-| ✅ Day 13 | Functions (`plpgsql`)                             | [day13_functions.sql](./day13_functions.sql)               |
-| ✅ Day 14 | Triggers                                          | [day14_triggers.sql](./day14_triggers.sql)                 |
-| ✅ Day 15 | Indexes (B-Tree, GIN, Partial)                    | [day15_indexes.sql](./day15_indexes.sql)                   |
-| ✅ Day 16 | EXPLAIN & ANALYZE                                 | [day16_explain.sql](./day16_explain.sql)                   |
-| ✅ Day 17 | Covering & Partial Indexes                        | [day17_partial_indexes.sql](./day17_partial_indexes.sql)   |
-| ✅ Day 18 | UPSERTs (`ON CONFLICT`)                           | [day18_upserts.sql](./day18_upserts.sql)                   |
-| ✅ Day 19 | Partitioning                                      | [day19_partitioning.sql](./day19_partitioning.sql)         |
-| ✅ Day 20 | Vacuum, Reindex, Analyze                          | [day20_maintenance.sql](./day20_maintenance.sql)           |
-| ⬜ Day 21 | Performance Project                               | `day21_performance_project.sql`                            |
-| ⬜ Day 22 | RBAC (Roles, Grants)                              | `day22_roles_grants.sql`                                   |
-| ⬜ Day 23 | Row-Level Security (RLS)                          | `day23_rls.sql`                                            |
-| ⬜ Day 24 | Replication Setup                                 | `day24_replication.sql`                                    |
-| ⬜ Day 25 | WAL + PITR                                        | `day25_wal_pitr.sql`                                       |
-| ⬜ Day 26 | Backup Tools (`pg_dump`, `pgBackRest`)            | `day26_backup.sql`                                         |
-| ⬜ Day 27 | PgBouncer & Connection Pooling                    | `day27_pgbouncer.sql`                                      |
-| ⬜ Day 28 | Foreign Data Wrappers (FDW)                       | `day28_fdw.sql`                                            |
-| ⬜ Day 29 | Monitoring (Prometheus + Grafana)                 | `day29_monitoring.sql`                                     |
-| ⬜ Day 30 | Final Project: SaaS DB Schema                     | `day30_final_project.sql`                                  |
+| Day       | Topic                                             | File                                                             |
+| --------- | ------------------------------------------------- | ---------------------------------------------------------------- |
+| ✅ Day 1  | Data Types & Table Design                         | [day01_schema_design.sql](./day01_schema_design.sql)             |
+| ✅ Day 2  | Constraints + CRUD (`INSERT`, `UPDATE`, `DELETE`) | [day02_constraints_crud.sql](./day02_constraints_crud.sql)       |
+| ✅ Day 3  | SELECT Queries, Filtering, Sorting                | [day03_select_queries.sql](./day03_select_queries.sql)           |
+| ✅ Day 4  | JOINS (INNER, LEFT, RIGHT, FULL)                  | [day04_joins.sql](./day04_joins.sql)                             |
+| ✅ Day 5  | Aggregates + GROUP BY + HAVING                    | [day05_aggregates.sql](./day05_aggregates.sql)                   |
+| ✅ Day 6  | Subqueries & `EXISTS`                             | [day06_subqueries.sql](./day06_subqueries.sql)                   |
+| ✅ Day 7  | Transactions & ACID                               | [day07_transactions.sql](./day07_transactions.sql)               |
+| ✅ Day 8  | `ALTER`, `DROP`, `TRUNCATE`                       | [day08_alter_drop.sql](./day08_alter_drop.sql)                   |
+| ✅ Day 9  | ENUM, ARRAY, Composite Types                      | [day09_enums_arrays.sql](./day09_enums_arrays.sql)               |
+| ✅ Day 10 | JSON & JSONB                                      | [day10_jsonb.sql](./day10_jsonb.sql)                             |
+| ✅ Day 11 | Common Table Expressions (CTEs)                   | [day11_ctes.sql](./day11_ctes.sql)                               |
+| ✅ Day 12 | Views & Materialized Views                        | [day12_views.sql](./day12_views.sql)                             |
+| ✅ Day 13 | Functions (`plpgsql`)                             | [day13_functions.sql](./day13_functions.sql)                     |
+| ✅ Day 14 | Triggers                                          | [day14_triggers.sql](./day14_triggers.sql)                       |
+| ✅ Day 15 | Indexes (B-Tree, GIN, Partial)                    | [day15_indexes.sql](./day15_indexes.sql)                         |
+| ✅ Day 16 | EXPLAIN & ANALYZE                                 | [day16_explain.sql](./day16_explain.sql)                         |
+| ✅ Day 17 | Covering & Partial Indexes                        | [day17_partial_indexes.sql](./day17_partial_indexes.sql)         |
+| ✅ Day 18 | UPSERTs (`ON CONFLICT`)                           | [day18_upserts.sql](./day18_upserts.sql)                         |
+| ✅ Day 19 | Partitioning                                      | [day19_partitioning.sql](./day19_partitioning.sql)               |
+| ✅ Day 20 | Vacuum, Reindex, Analyze                          | [day20_maintenance.sql](./day20_maintenance.sql)                 |
+| ✅ Day 21 | Performance Project                               | [day21_performance_project.sql](./day21_performance_project.sql) |
+| ⬜ Day 22 | RBAC (Roles, Grants)                              | `day22_roles_grants.sql`                                         |
+| ⬜ Day 23 | Row-Level Security (RLS)                          | `day23_rls.sql`                                                  |
+| ⬜ Day 24 | Replication Setup                                 | `day24_replication.sql`                                          |
+| ⬜ Day 25 | WAL + PITR                                        | `day25_wal_pitr.sql`                                             |
+| ⬜ Day 26 | Backup Tools (`pg_dump`, `pgBackRest`)            | `day26_backup.sql`                                               |
+| ⬜ Day 27 | PgBouncer & Connection Pooling                    | `day27_pgbouncer.sql`                                            |
+| ⬜ Day 28 | Foreign Data Wrappers (FDW)                       | `day28_fdw.sql`                                                  |
+| ⬜ Day 29 | Monitoring (Prometheus + Grafana)                 | `day29_monitoring.sql`                                           |
+| ⬜ Day 30 | Final Project: SaaS DB Schema                     | `day30_final_project.sql`                                        |
 
 ---
 
@@ -198,6 +198,13 @@ Over 30 days, I’m diving deep into PostgreSQL — from basics like SQL and con
 - Ran `VACUUM` and `ANALYZE` to reclaim space and update planner stats.
 - Explored `VACUUM FULL` and `REINDEX` for aggressive cleanup.
 - Understood when and how to use these commands to maintain healthy DB.
+
+### ✅ Day 21 – Performance Project
+
+- Generated bulk test data: 10,000 users and 100,000 posts.
+- Performed complex aggregation queries with EXPLAIN ANALYZE.
+- Created composite indexes to optimize query performance.
+- Explored partition pruning and maintenance post bulk insert.
 
 ---
 

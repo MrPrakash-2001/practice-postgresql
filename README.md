@@ -35,7 +35,7 @@ Over 30 days, I’m diving deep into PostgreSQL — from basics like SQL and con
 | ✅ Day 24 | Replication Setup                                 | [day24_replication.sql](./day24_replication.sql)                 |
 | ✅ Day 25 | WAL + PITR                                        | [day25_wal_pitr.sql](./day25_wal_pitr.sql)                       |
 | ✅ Day 26 | Backup Tools (`pg_dump`, `pgBackRest`)            | [day26_backup.sql](./day26_backup.sql)                           |
-| ⬜ Day 27 | PgBouncer & Connection Pooling                    | `day27_pgbouncer.sql`                                            |
+| ✅ Day 27 | PgBouncer & Connection Pooling                    | [day27_pgbouncer.sql](./day27_pgbouncer.sql)                     |
 | ⬜ Day 28 | Foreign Data Wrappers (FDW)                       | `day28_fdw.sql`                                                  |
 | ⬜ Day 29 | Monitoring (Prometheus + Grafana)                 | `day29_monitoring.sql`                                           |
 | ⬜ Day 30 | Final Project: SaaS DB Schema                     | `day30_final_project.sql`                                        |
@@ -237,6 +237,13 @@ Over 30 days, I’m diving deep into PostgreSQL — from basics like SQL and con
 - Learned to use `pg_dump`, `pg_restore`, `pg_dumpall` for schema/data/logical backups.
 - Created backups for entire DB, specific tables, schema-only, and data-only.
 - Introduced `pgBackRest` for enterprise-level backup and WAL archiving.
+
+### ✅ Day 27 – PgBouncer & Connection Pooling
+
+- Installed and configured **PgBouncer** to reduce connection overhead.
+- Explored key settings: `pool_mode`, `max_client_conn`, `auth_type`.
+- Used `SHOW POOLS` and `SHOW CLIENTS` to monitor activity.
+- Learned when to use `session`, `transaction`, and `statement` pooling.
 
 ---
 

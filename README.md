@@ -15,7 +15,7 @@ Over 30 days, I’m diving deep into PostgreSQL — from basics like SQL and con
 | ✅ Day 4  | JOINS (INNER, LEFT, RIGHT, FULL)                  | [day04_joins.sql](./day04_joins.sql)                       |
 | ✅ Day 5  | Aggregates + GROUP BY + HAVING                    | [day05_aggregates.sql](./day05_aggregates.sql)             |
 | ✅ Day 6  | Subqueries & `EXISTS`                             | [day06_subqueries.sql](./day06_subqueries.sql)             |
-| ⬜ Day 7  | Transactions & ACID                               | `day07_transactions.sql`                                   |
+| ✅ Day 7  | Transactions & ACID                               | [day07_transactions.sql](./day07_transactions.sql)         |
 | ⬜ Day 8  | `ALTER`, `DROP`, `TRUNCATE`                       | `day08_alter_drop.sql`                                     |
 | ⬜ Day 9  | ENUM, ARRAY, Composite Types                      | `day09_enums_arrays.sql`                                   |
 | ⬜ Day 10 | JSON & JSONB                                      | `day10_jsonb.sql`                                          |
@@ -103,6 +103,12 @@ Over 30 days, I’m diving deep into PostgreSQL — from basics like SQL and con
 - Used `EXISTS` and `NOT EXISTS` to filter users with/without posts.
 - Compared `word_count` to global average using subqueries.
 - Combined `UNNEST` with subqueries to analyze tags from specific users.
+
+### ✅ Day 7 – Transactions & ACID
+
+- Practiced `BEGIN`, `COMMIT`, `ROLLBACK` for transaction management.
+- Demonstrated rollback on error and partial rollback with `SAVEPOINT`.
+- Ensured atomicity and consistency of inserts using transaction blocks.
 
 ---
 

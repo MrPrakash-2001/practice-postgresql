@@ -38,7 +38,7 @@ Over 30 days, I’m diving deep into PostgreSQL — from basics like SQL and con
 | ✅ Day 27 | PgBouncer & Connection Pooling                    | [day27_pgbouncer.sql](./day27_pgbouncer.sql)                     |
 | ✅ Day 28 | Foreign Data Wrappers (FDW)                       | [day28_fdw.sql](./day28_fdw.sql)                                 |
 | ✅ Day 29 | Monitoring (Prometheus + Grafana)                 | [day29_monitoring.sql](./day29_monitoring.sql)                   |
-| ⬜ Day 30 | Final Project: SaaS DB Schema                     | `day30_final_project.sql`                                        |
+| ✅ Day 30 | Final Project: SaaS DB Schema                     | [day30_final_project.sql](./day30_final_project.sql)             |
 
 ---
 
@@ -258,6 +258,13 @@ Over 30 days, I’m diving deep into PostgreSQL — from basics like SQL and con
 - Set up Prometheus to scrape metrics.
 - Visualized PostgreSQL metrics using Grafana dashboards.
 - Learned SQL queries to manually check performance stats like cache hit ratio, long-running queries, and index usage.
+
+### ✅ Day 30 – Final Project: SaaS DB Schema
+
+- Designed multi-tenant schema with tenants, users, and projects.
+- Applied Row-Level Security for tenant data isolation.
+- Created functions to set tenant context dynamically.
+- Indexed tenant_id columns for performance.
 
 ---
 

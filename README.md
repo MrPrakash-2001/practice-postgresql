@@ -26,7 +26,7 @@ Over 30 days, I’m diving deep into PostgreSQL — from basics like SQL and con
 | ✅ Day 15 | Indexes (B-Tree, GIN, Partial)                    | [day15_indexes.sql](./day15_indexes.sql)                   |
 | ✅ Day 16 | EXPLAIN & ANALYZE                                 | [day16_explain.sql](./day16_explain.sql)                   |
 | ✅ Day 17 | Covering & Partial Indexes                        | [day17_partial_indexes.sql](./day17_partial_indexes.sql)   |
-| ⬜ Day 18 | UPSERTs (`ON CONFLICT`)                           | `day18_upserts.sql`                                        |
+| ✅ Day 18 | UPSERTs (`ON CONFLICT`)                           | [day18_upserts.sql](./day18_upserts.sql)                   |
 | ⬜ Day 19 | Partitioning                                      | `day19_partitioning.sql`                                   |
 | ⬜ Day 20 | Vacuum, Reindex, Analyze                          | `day20_maintenance.sql`                                    |
 | ⬜ Day 21 | Performance Project                               | `day21_performance_project.sql`                            |
@@ -176,6 +176,14 @@ Over 30 days, I’m diving deep into PostgreSQL — from basics like SQL and con
 - Created covering index including additional columns to avoid heap fetch.
 - Added partial index for rows with specific condition (`is_published = false`).
 - Tested index usage with `EXPLAIN ANALYZE` and observed query speed improvements.
+
+### ✅ Day 18 – UPSERTs
+
+- Practiced using `INSERT ... ON CONFLICT` to perform upserts.
+- Used `ON CONFLICT DO NOTHING` to avoid inserting duplicates.
+- Used `ON CONFLICT DO UPDATE SET` to update rows when constraint violations occur.
+- Worked with `EXCLUDED` keyword to reference values that would have been inserted.
+- Applied upserts on `users.email` and `posts.id` for deduplication and sync-like behavior.
 
 ---
 

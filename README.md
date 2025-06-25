@@ -33,7 +33,7 @@ Over 30 days, I’m diving deep into PostgreSQL — from basics like SQL and con
 | ✅ Day 22 | RBAC (Roles, Grants)                              | [day22_roles_grants.sql](./day22_roles_grants.sql)               |
 | ✅ Day 23 | Row-Level Security (RLS)                          | [day23_rls.sql](./day23_rls.sql)                                 |
 | ✅ Day 24 | Replication Setup                                 | [day24_replication.sql](./day24_replication.sql)                 |
-| ⬜ Day 25 | WAL + PITR                                        | `day25_wal_pitr.sql`                                             |
+| ✅ Day 25 | WAL + PITR                                        | [day25_wal_pitr.sql](./day25_wal_pitr.sql)                       |
 | ⬜ Day 26 | Backup Tools (`pg_dump`, `pgBackRest`)            | `day26_backup.sql`                                               |
 | ⬜ Day 27 | PgBouncer & Connection Pooling                    | `day27_pgbouncer.sql`                                            |
 | ⬜ Day 28 | Foreign Data Wrappers (FDW)                       | `day28_fdw.sql`                                                  |
@@ -225,6 +225,12 @@ Over 30 days, I’m diving deep into PostgreSQL — from basics like SQL and con
 - Enabled streaming replication using `pg_basebackup` and `standby.signal`.
 - Configured replication roles, WAL settings, and `pg_hba.conf`.
 - Verified replication with `pg_stat_replication` and `pg_is_in_recovery()`.
+
+### ✅ Day 25 – WAL & PITR (Point-in-Time Recovery)
+
+- Enabled WAL archiving with `archive_mode` and `archive_command`.
+- Took base backups and simulated data corruption.
+- Performed PITR using `recovery_target_time` and WAL archives.
 
 ---
 

@@ -273,3 +273,7 @@ Over 30 days, I’m diving deep into PostgreSQL — from basics like SQL and con
 I’m sharing my progress on GitHub daily. Feel free to fork, review, and suggest improvements!
 
 ---
+
+### 📫 Connect with Me
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/prakash-full-stack-developer)

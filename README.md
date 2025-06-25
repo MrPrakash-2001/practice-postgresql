@@ -30,7 +30,7 @@ Over 30 days, I’m diving deep into PostgreSQL — from basics like SQL and con
 | ✅ Day 19 | Partitioning                                      | [day19_partitioning.sql](./day19_partitioning.sql)               |
 | ✅ Day 20 | Vacuum, Reindex, Analyze                          | [day20_maintenance.sql](./day20_maintenance.sql)                 |
 | ✅ Day 21 | Performance Project                               | [day21_performance_project.sql](./day21_performance_project.sql) |
-| ⬜ Day 22 | RBAC (Roles, Grants)                              | `day22_roles_grants.sql`                                         |
+| ✅ Day 22 | RBAC (Roles, Grants)                              | [day22_roles_grants.sql](./day22_roles_grants.sql)               |
 | ⬜ Day 23 | Row-Level Security (RLS)                          | `day23_rls.sql`                                                  |
 | ⬜ Day 24 | Replication Setup                                 | `day24_replication.sql`                                          |
 | ⬜ Day 25 | WAL + PITR                                        | `day25_wal_pitr.sql`                                             |
@@ -205,6 +205,13 @@ Over 30 days, I’m diving deep into PostgreSQL — from basics like SQL and con
 - Performed complex aggregation queries with EXPLAIN ANALYZE.
 - Created composite indexes to optimize query performance.
 - Explored partition pruning and maintenance post bulk insert.
+
+### ✅ Day 22 – RBAC (Roles and Grants)
+
+- Created roles with specific privileges (read-only and read-write).
+- Granted permissions on tables to roles.
+- Created users and assigned roles for permission control.
+- Tested permissions by switching users.
 
 ---
 

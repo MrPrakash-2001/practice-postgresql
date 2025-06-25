@@ -14,7 +14,7 @@ Over 30 days, I’m diving deep into PostgreSQL — from basics like SQL and con
 | ✅ Day 3  | SELECT Queries, Filtering, Sorting                | [day03_select_queries.sql](./day03_select_queries.sql)     |
 | ✅ Day 4  | JOINS (INNER, LEFT, RIGHT, FULL)                  | [day04_joins.sql](./day04_joins.sql)                       |
 | ✅ Day 5  | Aggregates + GROUP BY + HAVING                    | [day05_aggregates.sql](./day05_aggregates.sql)             |
-| ⬜ Day 6  | Subqueries & `EXISTS`                             | `day06_subqueries.sql`                                     |
+| ✅ Day 6  | Subqueries & `EXISTS`                             | [day06_subqueries.sql](./day06_subqueries.sql)             |
 | ⬜ Day 7  | Transactions & ACID                               | `day07_transactions.sql`                                   |
 | ⬜ Day 8  | `ALTER`, `DROP`, `TRUNCATE`                       | `day08_alter_drop.sql`                                     |
 | ⬜ Day 9  | ENUM, ARRAY, Composite Types                      | `day09_enums_arrays.sql`                                   |
@@ -96,6 +96,13 @@ Over 30 days, I’m diving deep into PostgreSQL — from basics like SQL and con
 - Grouped posts by `user_id`, `is_published`, and individual tags.
 - Used `HAVING` to filter aggregate groups.
 - Queried average word count using JSONB extraction.
+
+### ✅ Day 6 – Subqueries & EXISTS
+
+- Practiced scalar, row, and correlated subqueries.
+- Used `EXISTS` and `NOT EXISTS` to filter users with/without posts.
+- Compared `word_count` to global average using subqueries.
+- Combined `UNNEST` with subqueries to analyze tags from specific users.
 
 ---
 

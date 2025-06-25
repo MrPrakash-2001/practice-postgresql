@@ -28,7 +28,7 @@ Over 30 days, I’m diving deep into PostgreSQL — from basics like SQL and con
 | ✅ Day 17 | Covering & Partial Indexes                        | [day17_partial_indexes.sql](./day17_partial_indexes.sql)   |
 | ✅ Day 18 | UPSERTs (`ON CONFLICT`)                           | [day18_upserts.sql](./day18_upserts.sql)                   |
 | ✅ Day 19 | Partitioning                                      | [day19_partitioning.sql](./day19_partitioning.sql)         |
-| ⬜ Day 20 | Vacuum, Reindex, Analyze                          | `day20_maintenance.sql`                                    |
+| ✅ Day 20 | Vacuum, Reindex, Analyze                          | [day20_maintenance.sql](./day20_maintenance.sql)           |
 | ⬜ Day 21 | Performance Project                               | `day21_performance_project.sql`                            |
 | ⬜ Day 22 | RBAC (Roles, Grants)                              | `day22_roles_grants.sql`                                   |
 | ⬜ Day 23 | Row-Level Security (RLS)                          | `day23_rls.sql`                                            |
@@ -191,6 +191,13 @@ Over 30 days, I’m diving deep into PostgreSQL — from basics like SQL and con
 - Partitioned the `posts` table by `created_at` year.
 - Inserted data routed automatically to appropriate partitions.
 - Covered default partitioning to handle outliers.
+
+### ✅ Day 20 – Maintenance: VACUUM, REINDEX, ANALYZE
+
+- Learned about PostgreSQL MVCC and importance of maintenance.
+- Ran `VACUUM` and `ANALYZE` to reclaim space and update planner stats.
+- Explored `VACUUM FULL` and `REINDEX` for aggressive cleanup.
+- Understood when and how to use these commands to maintain healthy DB.
 
 ---
 

@@ -16,7 +16,7 @@ Over 30 days, I’m diving deep into PostgreSQL — from basics like SQL and con
 | ✅ Day 5  | Aggregates + GROUP BY + HAVING                    | [day05_aggregates.sql](./day05_aggregates.sql)             |
 | ✅ Day 6  | Subqueries & `EXISTS`                             | [day06_subqueries.sql](./day06_subqueries.sql)             |
 | ✅ Day 7  | Transactions & ACID                               | [day07_transactions.sql](./day07_transactions.sql)         |
-| ⬜ Day 8  | `ALTER`, `DROP`, `TRUNCATE`                       | `day08_alter_drop.sql`                                     |
+| ✅ Day 8  | `ALTER`, `DROP`, `TRUNCATE`                       | [day08_alter_drop.sql](./day08_alter_drop.sql)             |
 | ⬜ Day 9  | ENUM, ARRAY, Composite Types                      | `day09_enums_arrays.sql`                                   |
 | ⬜ Day 10 | JSON & JSONB                                      | `day10_jsonb.sql`                                          |
 | ⬜ Day 11 | Common Table Expressions (CTEs)                   | `day11_ctes.sql`                                           |
@@ -109,6 +109,13 @@ Over 30 days, I’m diving deep into PostgreSQL — from basics like SQL and con
 - Practiced `BEGIN`, `COMMIT`, `ROLLBACK` for transaction management.
 - Demonstrated rollback on error and partial rollback with `SAVEPOINT`.
 - Ensured atomicity and consistency of inserts using transaction blocks.
+
+### ✅ Day 8 – `ALTER`, `DROP`, `TRUNCATE`
+
+- Modified table schemas with `ALTER TABLE`.
+- Practiced column and table renaming.
+- Used `DROP` to safely remove columns and tables.
+- Tested `TRUNCATE` vs `DELETE` for efficient row deletion.
 
 ---
 

@@ -19,7 +19,7 @@ Over 30 days, I’m diving deep into PostgreSQL — from basics like SQL and con
 | ✅ Day 8  | `ALTER`, `DROP`, `TRUNCATE`                       | [day08_alter_drop.sql](./day08_alter_drop.sql)             |
 | ✅ Day 9  | ENUM, ARRAY, Composite Types                      | [day09_enums_arrays.sql](./day09_enums_arrays.sql)         |
 | ✅ Day 10 | JSON & JSONB                                      | [day10_jsonb.sql](./day10_jsonb.sql)                       |
-| ⬜ Day 11 | Common Table Expressions (CTEs)                   | `day11_ctes.sql`                                           |
+| ✅ Day 11 | Common Table Expressions (CTEs)                   | [day11_ctes.sql](./day11_ctes.sql)                         |
 | ⬜ Day 12 | Views & Materialized Views                        | `day12_views.sql`                                          |
 | ⬜ Day 13 | Functions (`plpgsql`)                             | `day13_functions.sql`                                      |
 | ⬜ Day 14 | Triggers                                          | `day14_triggers.sql`                                       |
@@ -128,6 +128,12 @@ Over 30 days, I’m diving deep into PostgreSQL — from basics like SQL and con
 - Added and manipulated structured data using `JSONB`.
 - Queried nested fields with `->` and `->>`.
 - Used `@>`, `jsonb_set`, and casting for filtering.
+
+### ✅ Day 11 – Common Table Expressions (CTEs)
+
+- Simplified complex queries using `WITH` clause.
+- Implemented recursive CTEs to solve factorial and tree-like problems.
+- Used CTEs with `JOIN`, `UPDATE`, and real-world filtering logic.
 
 ---
 

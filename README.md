@@ -24,7 +24,7 @@ Over 30 days, I’m diving deep into PostgreSQL — from basics like SQL and con
 | ✅ Day 13 | Functions (`plpgsql`)                             | [day13_functions.sql](./day13_functions.sql)               |
 | ✅ Day 14 | Triggers                                          | [day14_triggers.sql](./day14_triggers.sql)                 |
 | ✅ Day 15 | Indexes (B-Tree, GIN, Partial)                    | [day15_indexes.sql](./day15_indexes.sql)                   |
-| ⬜ Day 16 | EXPLAIN & ANALYZE                                 | `day16_explain.sql`                                        |
+| ✅ Day 16 | EXPLAIN & ANALYZE                                 | [day16_explain.sql](./day16_explain.sql)                   |
 | ⬜ Day 17 | Covering & Partial Indexes                        | `day17_partial_indexes.sql`                                |
 | ⬜ Day 18 | UPSERTs (`ON CONFLICT`)                           | `day18_upserts.sql`                                        |
 | ⬜ Day 19 | Partitioning                                      | `day19_partitioning.sql`                                   |
@@ -163,6 +163,13 @@ Over 30 days, I’m diving deep into PostgreSQL — from basics like SQL and con
 - Used GIN indexes on arrays and JSONB columns for efficient searching.
 - Added partial index on published posts to optimize filtered queries.
 - Tested index usage with `EXPLAIN ANALYZE`.
+
+### ✅ Day 16 – EXPLAIN & ANALYZE
+
+- Used `EXPLAIN` to view query plans without execution.
+- Combined with `ANALYZE` to measure actual runtime statistics.
+- Learned to identify index usage, scan types, and performance bottlenecks.
+- Practiced on joins, filters, and aggregate queries.
 
 ---
 

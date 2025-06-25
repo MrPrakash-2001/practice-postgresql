@@ -34,7 +34,7 @@ Over 30 days, I’m diving deep into PostgreSQL — from basics like SQL and con
 | ✅ Day 23 | Row-Level Security (RLS)                          | [day23_rls.sql](./day23_rls.sql)                                 |
 | ✅ Day 24 | Replication Setup                                 | [day24_replication.sql](./day24_replication.sql)                 |
 | ✅ Day 25 | WAL + PITR                                        | [day25_wal_pitr.sql](./day25_wal_pitr.sql)                       |
-| ⬜ Day 26 | Backup Tools (`pg_dump`, `pgBackRest`)            | `day26_backup.sql`                                               |
+| ✅ Day 26 | Backup Tools (`pg_dump`, `pgBackRest`)            | [day26_backup.sql](./day26_backup.sql)                           |
 | ⬜ Day 27 | PgBouncer & Connection Pooling                    | `day27_pgbouncer.sql`                                            |
 | ⬜ Day 28 | Foreign Data Wrappers (FDW)                       | `day28_fdw.sql`                                                  |
 | ⬜ Day 29 | Monitoring (Prometheus + Grafana)                 | `day29_monitoring.sql`                                           |
@@ -231,6 +231,12 @@ Over 30 days, I’m diving deep into PostgreSQL — from basics like SQL and con
 - Enabled WAL archiving with `archive_mode` and `archive_command`.
 - Took base backups and simulated data corruption.
 - Performed PITR using `recovery_target_time` and WAL archives.
+
+### ✅ Day 26 – Backup Tools
+
+- Learned to use `pg_dump`, `pg_restore`, `pg_dumpall` for schema/data/logical backups.
+- Created backups for entire DB, specific tables, schema-only, and data-only.
+- Introduced `pgBackRest` for enterprise-level backup and WAL archiving.
 
 ---
 

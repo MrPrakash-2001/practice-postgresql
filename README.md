@@ -21,7 +21,7 @@ Over 30 days, I’m diving deep into PostgreSQL — from basics like SQL and con
 | ✅ Day 10 | JSON & JSONB                                      | [day10_jsonb.sql](./day10_jsonb.sql)                       |
 | ✅ Day 11 | Common Table Expressions (CTEs)                   | [day11_ctes.sql](./day11_ctes.sql)                         |
 | ✅ Day 12 | Views & Materialized Views                        | [day12_views.sql](./day12_views.sql)                       |
-| ⬜ Day 13 | Functions (`plpgsql`)                             | `day13_functions.sql`                                      |
+| ✅ Day 13 | Functions (`plpgsql`)                             | [day13_functions.sql](./day13_functions.sql)               |
 | ⬜ Day 14 | Triggers                                          | `day14_triggers.sql`                                       |
 | ⬜ Day 15 | Indexes (B-Tree, GIN, Partial)                    | `day15_indexes.sql`                                        |
 | ⬜ Day 16 | EXPLAIN & ANALYZE                                 | `day16_explain.sql`                                        |
@@ -140,6 +140,16 @@ Over 30 days, I’m diving deep into PostgreSQL — from basics like SQL and con
 - Built multiple `VIEW`s to simplify querying `posts` with user data and metadata.
 - Implemented `MATERIALIZED VIEW` to pre-calculate tag usage.
 - Covered advanced JSONB filtering and array unnesting inside views.
+
+### ✅ Day 13 – Functions
+
+- Created reusable SQL functions using `plpgsql`.
+- Built functions to:
+  - Fetch user summary
+  - Count posts by user
+  - Toggle post visibility
+  - Create posts with default metadata
+- Practiced `IN`, `OUT`, `RETURNING`, and function `RETURNS TABLE`.
 
 ---
 

@@ -27,7 +27,7 @@ Over 30 days, I’m diving deep into PostgreSQL — from basics like SQL and con
 | ✅ Day 16 | EXPLAIN & ANALYZE                                 | [day16_explain.sql](./day16_explain.sql)                   |
 | ✅ Day 17 | Covering & Partial Indexes                        | [day17_partial_indexes.sql](./day17_partial_indexes.sql)   |
 | ✅ Day 18 | UPSERTs (`ON CONFLICT`)                           | [day18_upserts.sql](./day18_upserts.sql)                   |
-| ⬜ Day 19 | Partitioning                                      | `day19_partitioning.sql`                                   |
+| ✅ Day 19 | Partitioning                                      | [day19_partitioning.sql](./day19_partitioning.sql)         |
 | ⬜ Day 20 | Vacuum, Reindex, Analyze                          | `day20_maintenance.sql`                                    |
 | ⬜ Day 21 | Performance Project                               | `day21_performance_project.sql`                            |
 | ⬜ Day 22 | RBAC (Roles, Grants)                              | `day22_roles_grants.sql`                                   |
@@ -184,6 +184,13 @@ Over 30 days, I’m diving deep into PostgreSQL — from basics like SQL and con
 - Used `ON CONFLICT DO UPDATE SET` to update rows when constraint violations occur.
 - Worked with `EXCLUDED` keyword to reference values that would have been inserted.
 - Applied upserts on `users.email` and `posts.id` for deduplication and sync-like behavior.
+
+### ✅ Day 19 – Partitioning
+
+- Learned range-based partitioning with PostgreSQL.
+- Partitioned the `posts` table by `created_at` year.
+- Inserted data routed automatically to appropriate partitions.
+- Covered default partitioning to handle outliers.
 
 ---
 

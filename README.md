@@ -22,7 +22,7 @@ Over 30 days, I’m diving deep into PostgreSQL — from basics like SQL and con
 | ✅ Day 11 | Common Table Expressions (CTEs)                   | [day11_ctes.sql](./day11_ctes.sql)                         |
 | ✅ Day 12 | Views & Materialized Views                        | [day12_views.sql](./day12_views.sql)                       |
 | ✅ Day 13 | Functions (`plpgsql`)                             | [day13_functions.sql](./day13_functions.sql)               |
-| ⬜ Day 14 | Triggers                                          | `day14_triggers.sql`                                       |
+| ✅ Day 14 | Triggers                                          | [day14_triggers.sql](./day14_triggers.sql)                 |
 | ⬜ Day 15 | Indexes (B-Tree, GIN, Partial)                    | `day15_indexes.sql`                                        |
 | ⬜ Day 16 | EXPLAIN & ANALYZE                                 | `day16_explain.sql`                                        |
 | ⬜ Day 17 | Covering & Partial Indexes                        | `day17_partial_indexes.sql`                                |
@@ -150,6 +150,12 @@ Over 30 days, I’m diving deep into PostgreSQL — from basics like SQL and con
   - Toggle post visibility
   - Create posts with default metadata
 - Practiced `IN`, `OUT`, `RETURNING`, and function `RETURNS TABLE`.
+
+### ✅ Day 14 – Triggers
+
+- Created an `audit_log` table to track changes to `posts`.
+- Used `AFTER INSERT` and `AFTER DELETE` triggers to log data.
+- Built two `plpgsql` functions to handle auditing logic.
 
 ---
 

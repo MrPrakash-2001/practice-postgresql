@@ -23,7 +23,7 @@ Over 30 days, I’m diving deep into PostgreSQL — from basics like SQL and con
 | ✅ Day 12 | Views & Materialized Views                        | [day12_views.sql](./day12_views.sql)                       |
 | ✅ Day 13 | Functions (`plpgsql`)                             | [day13_functions.sql](./day13_functions.sql)               |
 | ✅ Day 14 | Triggers                                          | [day14_triggers.sql](./day14_triggers.sql)                 |
-| ⬜ Day 15 | Indexes (B-Tree, GIN, Partial)                    | `day15_indexes.sql`                                        |
+| ✅ Day 15 | Indexes (B-Tree, GIN, Partial)                    | [day15_indexes.sql](./day15_indexes.sql)                   |
 | ⬜ Day 16 | EXPLAIN & ANALYZE                                 | `day16_explain.sql`                                        |
 | ⬜ Day 17 | Covering & Partial Indexes                        | `day17_partial_indexes.sql`                                |
 | ⬜ Day 18 | UPSERTs (`ON CONFLICT`)                           | `day18_upserts.sql`                                        |
@@ -156,6 +156,13 @@ Over 30 days, I’m diving deep into PostgreSQL — from basics like SQL and con
 - Created an `audit_log` table to track changes to `posts`.
 - Used `AFTER INSERT` and `AFTER DELETE` triggers to log data.
 - Built two `plpgsql` functions to handle auditing logic.
+
+### ✅ Day 15 – Indexes
+
+- Created B-Tree indexes for fast equality and range lookups.
+- Used GIN indexes on arrays and JSONB columns for efficient searching.
+- Added partial index on published posts to optimize filtered queries.
+- Tested index usage with `EXPLAIN ANALYZE`.
 
 ---
 

@@ -37,7 +37,7 @@ Over 30 days, I’m diving deep into PostgreSQL — from basics like SQL and con
 | ✅ Day 26 | Backup Tools (`pg_dump`, `pgBackRest`)            | [day26_backup.sql](./day26_backup.sql)                           |
 | ✅ Day 27 | PgBouncer & Connection Pooling                    | [day27_pgbouncer.sql](./day27_pgbouncer.sql)                     |
 | ✅ Day 28 | Foreign Data Wrappers (FDW)                       | [day28_fdw.sql](./day28_fdw.sql)                                 |
-| ⬜ Day 29 | Monitoring (Prometheus + Grafana)                 | `day29_monitoring.sql`                                           |
+| ✅ Day 29 | Monitoring (Prometheus + Grafana)                 | [day29_monitoring.sql](./day29_monitoring.sql)                   |
 | ⬜ Day 30 | Final Project: SaaS DB Schema                     | `day30_final_project.sql`                                        |
 
 ---
@@ -251,6 +251,13 @@ Over 30 days, I’m diving deep into PostgreSQL — from basics like SQL and con
 - Connected to a remote PostgreSQL database using `CREATE SERVER`.
 - Queried external tables using `FOREIGN TABLE`.
 - Learned to `IMPORT FOREIGN SCHEMA` and manage FDW permissions.
+
+### ✅ Day 29 – Monitoring (Prometheus + Grafana)
+
+- Installed `postgres_exporter` for metric collection.
+- Set up Prometheus to scrape metrics.
+- Visualized PostgreSQL metrics using Grafana dashboards.
+- Learned SQL queries to manually check performance stats like cache hit ratio, long-running queries, and index usage.
 
 ---
 

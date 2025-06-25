@@ -18,7 +18,7 @@ Over 30 days, I’m diving deep into PostgreSQL — from basics like SQL and con
 | ✅ Day 7  | Transactions & ACID                               | [day07_transactions.sql](./day07_transactions.sql)         |
 | ✅ Day 8  | `ALTER`, `DROP`, `TRUNCATE`                       | [day08_alter_drop.sql](./day08_alter_drop.sql)             |
 | ✅ Day 9  | ENUM, ARRAY, Composite Types                      | [day09_enums_arrays.sql](./day09_enums_arrays.sql)         |
-| ⬜ Day 10 | JSON & JSONB                                      | `day10_jsonb.sql`                                          |
+| ✅ Day 10 | JSON & JSONB                                      | [day10_jsonb.sql](./day10_jsonb.sql)                       |
 | ⬜ Day 11 | Common Table Expressions (CTEs)                   | `day11_ctes.sql`                                           |
 | ⬜ Day 12 | Views & Materialized Views                        | `day12_views.sql`                                          |
 | ⬜ Day 13 | Functions (`plpgsql`)                             | `day13_functions.sql`                                      |
@@ -122,6 +122,12 @@ Over 30 days, I’m diving deep into PostgreSQL — from basics like SQL and con
 - Defined and used `ENUM` for strict role values.
 - Updated and queried `ARRAY` columns with `ANY()`.
 - Defined and inserted structured `COMPOSITE` types for complex address fields.
+
+### ✅ Day 10 – JSON & JSONB
+
+- Added and manipulated structured data using `JSONB`.
+- Queried nested fields with `->` and `->>`.
+- Used `@>`, `jsonb_set`, and casting for filtering.
 
 ---
 

@@ -32,7 +32,7 @@ Over 30 days, I’m diving deep into PostgreSQL — from basics like SQL and con
 | ✅ Day 21 | Performance Project                               | [day21_performance_project.sql](./day21_performance_project.sql) |
 | ✅ Day 22 | RBAC (Roles, Grants)                              | [day22_roles_grants.sql](./day22_roles_grants.sql)               |
 | ✅ Day 23 | Row-Level Security (RLS)                          | [day23_rls.sql](./day23_rls.sql)                                 |
-| ⬜ Day 24 | Replication Setup                                 | `day24_replication.sql`                                          |
+| ✅ Day 24 | Replication Setup                                 | [day24_replication.sql](./day24_replication.sql)                 |
 | ⬜ Day 25 | WAL + PITR                                        | `day25_wal_pitr.sql`                                             |
 | ⬜ Day 26 | Backup Tools (`pg_dump`, `pgBackRest`)            | `day26_backup.sql`                                               |
 | ⬜ Day 27 | PgBouncer & Connection Pooling                    | `day27_pgbouncer.sql`                                            |
@@ -219,6 +219,12 @@ Over 30 days, I’m diving deep into PostgreSQL — from basics like SQL and con
 - Created policy to allow each user to only see their own posts.
 - Used `current_setting()` to simulate app context for authenticated user ID.
 - Demonstrated `SELECT` and `INSERT` policies with `USING` and `WITH CHECK`.
+
+### ✅ Day 24 – Replication Setup
+
+- Enabled streaming replication using `pg_basebackup` and `standby.signal`.
+- Configured replication roles, WAL settings, and `pg_hba.conf`.
+- Verified replication with `pg_stat_replication` and `pg_is_in_recovery()`.
 
 ---
 
